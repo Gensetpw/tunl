@@ -53,7 +53,7 @@ fn link(_: Request, cx: RouteContext<Config>) -> Result<Response> {
         let config = json!({
             "ps": "tunl",
             "v": "2",
-            "add": host,
+            "add": "162.159.16.149",
             "port": "443",
             "id": uuid,
             "aid": "0",
@@ -61,7 +61,7 @@ fn link(_: Request, cx: RouteContext<Config>) -> Result<Response> {
             "net": "ws",
             "type": "none",
             "host": host,
-            "path": "vmess",
+            "path": "",
             "tls": "true",
             "sni": "",
             "alpn": ""}
